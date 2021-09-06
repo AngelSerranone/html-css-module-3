@@ -13,14 +13,60 @@
         <nav id="header-nav" class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
+                    <!--Logo-->
                     <a href="index.html"><h1>FOOD, LLC</h1></a>
+                    <!--Nav Button-->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      
+                    </button>
+                </div>
+
+                <!--Nav list-->
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                     <li class="visible-xs">
+                       <a href="#chicken">Chicken</a>
+                     </li>
+                     <li class="visible-xs">
+                       <a href="#beef">Beef</a>
+                     </li>
+                     <li class="visible-xs">
+                       <a href="#sushi">Sushi</a>
+                     </li>
+                   </ul>
                 </div>
             </div>
         </nav>
     </header>
 
+    <!--Main Content-->
+    <div id="main-content" class="container">
+        <!--Title-->
+        <div id="title" class="text-center">Our Menu!</div>
+        <!--Content-->
+        <div class="row">
+            <div class="food" id="chicken">
+                <h3>Chicken</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="food" id="beef">
+                <h3>Beef</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="food" id="sushi">
+                <h3>Sushi</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            
+        </div>
+    </div>
+
     <!-- jQuery (Bootstrap JS plugins depend on it) -->
-    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 </body>

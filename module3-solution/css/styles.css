@@ -4,11 +4,43 @@
     border-radius: 0;
     border: 0;
 }
-
-#navbar-header {
+.navbar-header h1 {
     color: white;
+    padding-left: 30px;
+}
+.navbar-header a:hover, .navbar-header a:focus {
+    text-decoration: none;
+}
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+#nav-list a:hover {
+    color:#b719f6;
+    background: white;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #363133;
+}
+.navbar-header button.navbar-toggle {
+clear: both;
+margin-top: -50px;
+}
+#title {
+    font-size: 2em;
+    margin: 20px;
+}
+.food {
+    background-color: #e8bbfa;
+    padding: 5px 15px 15px 15px;
+    margin: 25px;
+}
+.food h3 {
+    text-align: center;
 }
 
-#navbar-header h1 {
-    padding-top: 25px;
-}
+
