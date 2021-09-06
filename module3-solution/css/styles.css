@@ -1,0 +1,14 @@
+/** HEADER **/
+#header-nav {
+    background-color: #b719f6;
+    border-radius: 0;
+    border: 0;
+}
+
+#navbar-header {
+    color: white;
+}
+
+#navbar-header h1 {
+    padding-top: 25px;
+}
